@@ -1,0 +1,9 @@
+venv_clean*/
+__pycache__/
+*.npy
+*.pkl
+*.h5
+.env
+.ipynb_checkpoints/
+data/processed/
+mlruns/
