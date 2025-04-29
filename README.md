@@ -31,22 +31,23 @@ A financial risk scoring machine learning project built with FastAPI, XGBoost, T
 | Container | Docker (optional setup) |
 | Testing | Jupyter Notebooks, FastAPI Swagger |
 
-## Project Structure
+# Project Structure
 
+```
 risk_scoring_project/
 ├── app/
-│   ├── fastapi_app.py
+│   └── fastapi_app.py
 ├── data/
 │   ├── lending_club_data.csv
-│   ├── processed/
+│   └── processed/
 │       ├── X_train.npy
 │       ├── X_test.npy
 │       ├── y_train.npy
-│       ├── y_test.npy
+│       └── y_test.npy
 ├── models/
 │   ├── xgboost_model_best.pkl
 │   ├── tensorflow_model.h5
-│   ├── random_forest_pipeline.pkl
+│   └── random_forest_pipeline.pkl
 ├── notebooks/
 │   ├── 01_basic_data_analysis.ipynb
 │   ├── 02_feature_engineering.ipynb
@@ -55,10 +56,12 @@ risk_scoring_project/
 │   ├── 05_mlflow_tracking.ipynb
 │   ├── 06_tensorflow_model_training.ipynb
 │   ├── 07_compare_models_mlflow.ipynb
-│   ├── 08_api_prediction_demo.ipynb
+│   └── 08_api_prediction_demo.ipynb
 ├── requirements.txt
 ├── Dockerfile (optional)
-├── README.md
+└── README.md
+
+```
 
 ## Getting Started
 
